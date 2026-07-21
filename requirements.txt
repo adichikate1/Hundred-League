@@ -1,0 +1,9 @@
+flask
+catboost
+requests
+bs4
+pandas
+PyGithub
+pandas
+base64
+scikit-learn
