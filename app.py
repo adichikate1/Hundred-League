@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 
 
-df_HL = pd.read_csv("static/data/Hundred League.csv").dropna()
+df_HL = pd.read_csv("static/data/Hundred League1.csv").dropna()
 
 X_HL = df_HL.drop(columns="win")
 y_HL = df_HL["win"]
